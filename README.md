@@ -1,7 +1,12 @@
 # A visual representation of an EEG recording
+An electroencephalography recording will be captured via a brain-computer interface. The EEG signal will be processed into a frequency-based representation (a spectrogram), which then will be used as input into a artistic representation that can be visually experienced.
 
-An electroencephalography recording will be captured via a low-cost, brain-computer interface developed by [OpenBCI](https://docs.openbci.com/GettingStarted/Boards/GanglionGS/). The EEG signal will be represented as [frequencies versus power](https://mne.tools/stable/auto_tutorials/intro/10_overview.html#time-frequency-analysis), which then will be used as input into a artistic representation that can be visually experienced.
+Then another EEG recording will be captured, of the same participant as the previous recording. However under this scenario the participant will be viewing the previous artistic representation of their brainwaves.
 
-Then, another EEG recording will be captured. This recording will be from the same participant as the previous recording. However under this scenario the participant will be viewing the previous artistic representation of their brainwaves.
+Finally, the difference in brainwaves comparing the 1st to 2nd scenario will be determined (via further signal processing). This difference will be highlighted, in addition to both visual representations of both scenarios.
 
-Finally, the difference in brainwaves comparing the 1st to  2nd scenario will be determined (via further signal processing). This difference will be highlighted, in addition to both visual representations of both scenarios.
+## Requirements
+This project uses a Python-based environment for most computation. In particular, it leans on the BrainFlow and MNE packages for processing of data. This EEG data is acquired from a low-cost, brain-computer interface developed by OpenBCI.
+
+For more information relating to these details check out the following link. Note, this project also relies upon the following project, which
+[derives a frequency-based representation of an electroencephalography signal](https://mybinder.org/v2/gh/NicholasCHowlett/eegDataAnalysis/HEAD?labpath=process_data.ipynb).
