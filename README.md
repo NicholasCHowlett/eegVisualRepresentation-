@@ -8,5 +8,4 @@ Finally, the difference in brainwaves comparing the 1st to 2nd scenario will be 
 ## Requirements
 This project uses a Python-based environment for most computation. In particular, it leans on the BrainFlow and MNE packages for processing of data. This EEG data is acquired from a low-cost, brain-computer interface developed by OpenBCI.
 
-For more information relating to these details check out the following link. Note, this project also relies upon the following project, which
-[derives a frequency-based representation of an electroencephalography signal](https://mybinder.org/v2/gh/NicholasCHowlett/eegDataAnalysis/HEAD?labpath=process_data.ipynb).
+For more information relating to these details check out the following, which is foundational to this project: [Acquiring & processing an electroencephalography signal](https://github.com/NicholasCHowlett/eegDataAnalysis).
